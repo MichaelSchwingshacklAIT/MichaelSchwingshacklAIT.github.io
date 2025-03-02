@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOPOMOP - Few-Shot Machinery Part Segmentation</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f6f8fa;
+        }
+        header {
+            background-color: #24292e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 25px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            display: block;
+            margin: 20px auto;
+        }
+        h2 {
+            color: #24292e;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+        }
+        ul, ol {
+            padding-left: 20px;
+        }
+        a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .authors {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .author {
+            background: #f0f0f0;
+            padding: 15px;
+            border-radius: 8px;
+            width: 250px;
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        pre {
+            background-color: #f8f8f8;
+            padding: 15px;
+            border-radius: 6px;
+            overflow-x: auto;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HOPOMOP - Few-Shot Machinery Part Segmentation</h1>
+    </header>
+    <div class="container">
+        <div class="card">
+            <h2>Understanding HOPOMOP</h2>
+            <p>HOPOMOP is an AI-powered system that segments machinery parts using few-shot learning. It combines foundation models and graph neural networks to accurately analyze complex mechanical structures even with limited training data.</p>
+        </div>
+        <div class="card">
+            <h2>Welcome to HOPOMOP 🎯</h2>
+            <p>HOPOMOP is an advanced approach for understanding and segmenting machinery parts from images using cutting-edge AI. Whether you're working with industrial machines, robotics, or just interested in computer vision, our approach makes it easier to analyze complex mechanical structures—even with very little training data!</p>
+            <h3>🚀 Why HOPOMOP?</h3>
+            <ul>
+                <li>Works with just a few training examples 🏗️</li>
+                <li>Uses powerful AI models for precise segmentation 🤖</li>
+                <li>Bridges the gap between synthetic and real-world images 🌍</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h2>How It Works 🔍</h2>
+            <p>HOPOMOP combines different AI models to identify and segment parts of machines:</p>
+            <ul>
+                <li><strong>SuperPoint</strong>: Detects key features in images 🏷️</li>
+                <li><strong>CLIPSeg</strong>: Understands objects based on text prompts 🔠</li>
+                <li><strong>Segment Anything</strong>: Quickly outlines objects with precision ✂️</li>
+                <li><strong>Graph Neural Networks</strong>: Connects important features for smarter predictions 🔗</li>
+            </ul>
+            <img src="images/architecture.png" alt="HOPOMOP Architecture" width="600">
+        </div>
+        <div class="card">
+            <h2>What We Used 🏗️</h2>
+            <h3>🔄 Domain Randomization</h3>
+            <p>To make the model smarter, we trained it with AI-generated images that change backgrounds, lighting, and angles—just like in video games! 🎮</p>
+            <img src="images/domain_randomization.png" alt="Domain Randomization">
+            <img src="images/truck_blender.gif" alt="Truck Blender Animation">
+        </div>
+        <div class="card">
+            <h2>Real-World Performance 🌍</h2>
+            <h3>Few-Shot Segmentation</h3>
+            <p>Even with a handful of training images, HOPOMOP can accurately detect and label machine parts:</p>
+            <img src="images/few_shot_evaluation.png" alt="Few Shot Evaluation">
+            <h3>From Simulation to Reality</h3>
+            <p>Trained on only 10 synthetic images, HOPOMOP successfully identifies parts on real machines:</p>
+            <img src="images/sim_to_real.gif" alt="Sim to Real Animation">
+            <h3>Tracking Objects Over Time</h3>
+            <p>HOPOMOP can follow moving objects in videos, making it useful for industrial inspections and automation:</p>
+            <table>
+                <tr>
+                    <th>Segmentation Type</th>
+                    <th>Example</th>
+                </tr>
+                <tr>
+                    <td>One Class</td>
+                    <td><img src="images/davis1.gif" alt="Davis 1 Animation"></td>
+                </tr>
+                <tr>
+                    <td>Two Classes</td>
+                    <td><img src="images/davis2.gif" alt="Davis 2 Animation"></td>
+                </tr>
+                <tr>
+                    <td>Multi Classes</td>
+                    <td><img src="images/davis3.gif" alt="Davis 3 Animation"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="card">
+            <h2>Who We Are 👩‍🔬</h2>
+            <p>HOPOMOP is developed at the <a href="https://www.ait.ac.at/">AIT Austrian Institute of Technology</a> 🇦🇹, specializing in vision, automation, and control research.</p>
+            <div class="authors">
+                <div class="author">
+                    <strong>Michael Schwingshackl</strong><br>
+                    📧 <a href="mailto:Michael.Schwingshackl@ait.ac.at">Michael.Schwingshackl@ait.ac.at</a><br>
+                    <a href="https://publications.ait.ac.at/de/persons/michael-schwingshackl">🔗 AIT Profile</a><br>
+                    <a href="https://scholar.google.at/citations?user=fsvMYQYAAAAJ&hl">🔗 Scholar</a>
+                </div>
+                <div class="author">
+                    <strong>Fabio Francisco Oberweger</strong><br>
+                    📧 <a href="mailto:Fabio.Oberweger@ait.ac.at">Fabio.Oberweger@ait.ac.at</a><br>
+                    <a href="https://publications.ait.ac.at/de/persons/fabio.oberweger">🔗 AIT Profile</a><br>
+                    <a href="https://scholar.google.at/citations?hl=de&user=njm6I3wAAAAJ">🔗 Scholar</a>
+                </div>
+                <div class="author">
+                    <strong>Markus Murschitz</strong><br>
+                    📧 <a href="mailto:Markus.Murschitz@ait.ac.at">Markus.Murschitz@ait.ac.at</a><br>
+                    <a href="https://publications.ait.ac.at/de/persons/markus.murschitz">🔗 AIT Profile</a><br>
+                    <a href="https://scholar.google.at/citations?hl=de&user=S8yQbTQAAAAJ">🔗 Scholar</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <h2>Want the Full Dataset? 📦</h2>
+            <p>We provide a small sample to get you started. If you're interested in using the complete dataset for research, feel free to reach out!</p>
+        </div>
+        <div class="card">
+            <h2>Cite HOPOMOP 📚</h2>
+            <p>If you use our work, please cite us:</p>
+            <pre><code>@InProceedings{Schwingshackl_2025_WACV,
+    author    = {Schwingshackl, Michael and Oberweger, Fabio F. and Murschitz, Markus},
+    title     = {Few-Shot Structure-Informed Machinery Part Segmentation with Foundation Models and Graph Neural Networks},
+    booktitle = {Proceedings of the Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {February},
+    year      = {2025},
+    pages     = {1989-1998}
+}
+</code>
+            </pre>
+        </div>
+    </div>  
+</body>
+</html>
+```
