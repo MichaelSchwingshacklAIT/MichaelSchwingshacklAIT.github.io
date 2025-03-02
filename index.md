@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOPOMOP - Few-Shot Machinery Part Segmentation</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -53,6 +52,10 @@
     <header>
         <h1>HOPOMOP - Few-Shot Machinery Part Segmentation</h1>
     </header>
+
+    image
+    <>
+
     <div class="container">
         <div class="section">
             <h2>Understanding HOPOMOP</h2>
