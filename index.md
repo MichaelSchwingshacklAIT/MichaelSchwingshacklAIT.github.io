@@ -1,4 +1,66 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOPOMOP - Few-Shot Machinery Part Segmentation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: white;
+            color: black;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .authors {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .author {
+            background: #f9f9f9;
+            padding: 15px;
+            border-radius: 8px;
+            width: 250px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HOPOMOP - Few-Shot Machinery Part Segmentation</h1>
+    </header>
+    <div class="container">
+        <div class="section">
+            <h2>Understanding HOPOMOP</h2>
+            <p>HOPOMOP is an AI-powered system that segments machinery parts using few-shot learning. It combines foundation models and graph neural networks to accu[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
 
 # HOPOMOP (Hundreds Of Points Over Millions Of Pixels)
 
